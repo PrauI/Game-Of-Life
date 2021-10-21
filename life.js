@@ -52,8 +52,8 @@ class Cell{
         this.alive = alive;
     }
     show(color){
-        this.sizeX = width / rows;
-        this.sizeY = height / cols;
+        this.sizeX = width / cols;
+        this.sizeY = height / rows;
         if(this.alive){
             color = 255;
         }
